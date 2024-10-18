@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-gray-800">
+     <div class="container mx-auto text-center">
+        <h1 class="text-4xl font-bold text-white my-10">Search for Your Meal</h1>
+     </div>
+     <div class="bg-white w-1/2 mx-auto p-2 border rounded-xl flex justify-between gap-2">
+        <input type="text" placeholder="Ex..Chicken" class="p-2 w-full rounded-xl border-transparent" id="input" />
+        <button class="btn bg-orange-500 hover:bg-orange-700 taxt-white px-4 py-2 rounded-xl" id="search">Search</button>
+     </div>
+     <div class="container mx-auto border border-gray-600 min-h-[600px] rounded-xl mt-5 p-4">
+        <h2 id="noMeal" class="text-gray-300 text-center text-4xl mt-10 font-semibold capitalize">No Meal to Show!😔</h2>
+     <div class="meal-wrapper grid grid-cols-4 gap-5"> 
+        
+<!--  <div class="meal-box border border-gray-500 rounded-xl">
+         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7QNR0bwxeL9yREcSr_tfisV9Wdn4_c4d17w&s" alt="" class="rounded h-[200px] w-full object-cover">
+         <div class="p-3">
+            <h3 class="heading text-2xl text-white"> Leblebi Soup</h3>
+            <p class="text-gray-400 my-2">Lorem, ipsum djkv dklnvkjn njvjnk djvnnje envjn vneojnove envnioee </p>
+            <p class="italic text-gray-500"><span>Tunician</span><span>Vegrtarian</span></p>
+            <div class="my-4">
+               <a href="#" class="btn  bg-orange-500 hover:bg-orange-700 taxt-white px-4 py-2 rounded-xl" id="watch">Watch</a>
+               <button class="px-3 text-white">View Recipe</button>
+            </div>
+         </div> 
+      </div> -->
+     </div>
+    </div>
+    <div
+      class="fixed inset-0 flex items-center justify-center bg-[#000000ba] invisible"
+      id="details"
+    >
+      <!--<div class="popup bg-white w-64 p-6 rounded shadow-lg w-[70%] h-[600px]">
+        <h2 class="text-xl font-bold mb-4">Popup Title</h2>
+        <p class="mb-4">Popup content goes here.</p>
+        <button
+          class="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded"
+        >
+          Close
+        </button>
+      </div> -->
+    </div> 
+    <script src="app.js"></script>
+  </body>
+</html>
